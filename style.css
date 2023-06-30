@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    background-image: url("/images/bg.png");
+    background-size: cover;
+    overflow-y: hidden;
+}
+
+h1 {
+    font-weight: 700;
+    line-height: 115%;
+    font-size: 69px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 115%;
+    color: rgba(0, 0, 0, 0.61);  
+}
+
+hr {
+    @apply h-px my-8 bg-gray-200 border-0 dark:bg-gray-700
+}
+
+span {
+    color: #AA06D8;
+}
+
+.images {
+    padding-top: 90px;
+}
+
+.content {
+    padding-top: 94px;
+}
+
+.content .mini__title p {
+    color: #A7A8A8;
+    font-size: 10px;
+    margin-left: 17px;
+}
+
+.content .mini__title .line {
+    width: 100px;
+    height: 2px;
+    background: #A7A8A8;
+    margin-top: 5px;
+}
+
+.home .content .info {
+    padding-top: 40px;
+    padding-bottom: 140px;
+}
+
+.button-start {
+    @apply uppercase;
+    font-size: 20px;
+    color: white;
+    padding: 22px 60px;
+    background: linear-gradient(90deg, #AA06D8 0%, #B929E1 55.73%, #8608A9 100%);
+    box-shadow: 0px 7px 0px #650481, inset 0px -2px 0px #D84FFF;
+    font-weight: 700;
+}
+
+.donate .content .info {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.donate .content form {
+    width: 400px;
+}
+
+.donate .content form p {
+    @apply font-medium text-xl mb-2;
+}
+
+.donate .content form input {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 27px rgba(0, 0, 0, 0.15);
+    border: #FFFFFF;
+    padding: 23px 13px;
+    width: 100%;
+}
+
+.donate .content form input::placeholder {
+    color: rgba(0, 0, 0, 0.43);
+    font-size: 15px;
+}
+
+.donate .content .button-start {
+    width: 100%;
+}
+
+.index {
+    padding-top: 280px;
+}
+
+.index span {
+    font-size: 114px;
+    line-height: 92%;
+}
+
+.index h1 {
+    font-size: 50PX;
+}
+
+.index p {
+    color: rgba(0, 0, 0, 0.61);
+    font-size: 20px;
+    line-height: 115%;
+    padding-top: 20px;
+    margin-bottom: 3rem;
+}
+
+.index .button-index {
+    background: linear-gradient(90deg, #AA06D8 0%, #B929E1 55.73%, #8608A9 100%);
+    box-shadow: 0px 7px 0px #650481, inset 0px -2px 0px #EA9EFF;
+    border-radius: 56px;
+    padding: 30px 90px;
+    color: #fff;
+    font-weight: 600;
+    width: 373px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
